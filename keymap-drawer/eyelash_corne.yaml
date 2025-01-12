@@ -71,12 +71,12 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - HOME
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - HOME
-  - PG UP
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
@@ -89,7 +89,7 @@ layers:
   - RGB SPI
   - RGB BRI
   - RGB BRD
-  - END
+  - PG UP
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
