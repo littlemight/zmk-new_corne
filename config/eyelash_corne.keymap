@@ -119,10 +119,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&bt BT_SEL 0  &kp N1           &kp N2            &kp N3        &kp N4            &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8         &kp N9        &kp N0           &kp DELETE
-&bt BT_SEL 1  &kp LEFT_SHIFT   &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME         &kp LEFT         &kp DOWN       &kp UP_ARROW  &kp RIGHT        &kp END
-&bt BT_SEL 2  &rgb_ug RGB_OFF  &rgb_ug RGB_ON    &trans        &trans            &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &kp PAGE_DOWN  &kp PAGE_UP   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
-                                                 &trans        &trans            &trans                                                                          &kp BACKSPACE    &kp INSERT       &trans
+&bt BT_SEL 0  &kp N1           &kp N2            &kp N3        &kp N4            &kp N5                                            &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8         &kp N9        &kp N0           &kp DELETE
+&bt BT_SEL 1  &kp LEFT_SHIFT   &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans                         &mmv MOVE_X(-400)  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME         &kp LEFT         &kp DOWN       &kp UP_ARROW  &kp RIGHT        &kp END
+&bt BT_SEL 2  &rgb_ug RGB_OFF  &rgb_ug RGB_ON    &trans        &trans            &rgb_ug RGB_EFF  &kp C_MUTE                       &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &kp PAGE_DOWN  &kp PAGE_UP   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD
+                                                 &trans        &trans            &trans                                                                             &kp BACKSPACE    &kp INSERT       &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
